@@ -1,3 +1,3 @@
 #!/bin/bash
 
-conceal-cli/build/release/src/conceald
+conceal-core/build/release/src/conceald
