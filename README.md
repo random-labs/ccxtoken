@@ -28,5 +28,6 @@ Ports 15000 and 4444 should be open on the server.
 The two wallets require passwords.
 *ccx.js* requires *npm stellar-sdk* and must be edited to add a Stellar secret key and a
 Conceal public address.
-
-
+When run for the first time, use the last two commented lines in ccx.js to initialize
+*pointer* and *register*, by uncommenting them one at at time, while commenting the
+the last uncommented line.
